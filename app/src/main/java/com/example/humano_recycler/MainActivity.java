@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         List<Humanos> humanos = new ArrayList<>();
-        humanos.add(new Humanos("Juan","Peruano","Placoson"));
         humanos.add(new Humanos("Leo","Mexicano","Cholo"));
         humanos.add(new Humanos("Mateo","Espaniol","Revolucionario"));
         humanos.add(new Humanos("Elias","Tailandes","Underground"));
