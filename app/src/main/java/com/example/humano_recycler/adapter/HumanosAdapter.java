@@ -66,7 +66,6 @@ public class HumanosAdapter extends RecyclerView.Adapter<HumanosAdapter.ViewHold
             txtNom = itemView.findViewById(R.id.tvNombre);
             txtEstilo = itemView.findViewById(R.id.tvEstilo);
             txtNacion = itemView.findViewById(R.id.tvNacion);
-
         }
 
         public void setData(Humanos g) {

@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
         humanos.add(new Humanos("Leo","Mexicano","Cholo"));
         humanos.add(new Humanos("Mateo","Espaniol","Revolucionario"));
         humanos.add(new Humanos("Elias","Tailandes","Underground"));
-        humanos.add(new Humanos("Sergo","Finlandes","Clasio"));
+        humanos.add(new Humanos("Sergio","Finlandes","Clasico"));
 
-        HumanosAdapter HA= new HumanosAdapter(humanos);
+        HumanosAdapter HA = new HumanosAdapter(humanos);
         RecyclerView recyclerView=findViewById(R.id.recycleView);
         recyclerView.setAdapter(HA);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
